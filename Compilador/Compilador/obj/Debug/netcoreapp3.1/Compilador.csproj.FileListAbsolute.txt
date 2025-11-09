@@ -1,0 +1,13 @@
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\bin\Debug\netcoreapp3.1\Compilador.exe
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\bin\Debug\netcoreapp3.1\Compilador.deps.json
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\bin\Debug\netcoreapp3.1\Compilador.runtimeconfig.json
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\bin\Debug\netcoreapp3.1\Compilador.runtimeconfig.dev.json
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\bin\Debug\netcoreapp3.1\Compilador.dll
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\bin\Debug\netcoreapp3.1\Compilador.pdb
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\obj\Debug\netcoreapp3.1\Compilador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\obj\Debug\netcoreapp3.1\Compilador.AssemblyInfoInputs.cache
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\obj\Debug\netcoreapp3.1\Compilador.AssemblyInfo.cs
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\obj\Debug\netcoreapp3.1\Compilador.csproj.CoreCompileInputs.cache
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\obj\Debug\netcoreapp3.1\Compilador.dll
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\obj\Debug\netcoreapp3.1\Compilador.pdb
+C:\Users\brhos\source\repos\Compilador\Compilador\Compilador\obj\Debug\netcoreapp3.1\Compilador.genruntimeconfig.cache
