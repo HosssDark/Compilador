@@ -4,24 +4,24 @@
     {
         public enum TipoToken
         {
-            //Palavras chave
+            //Palavras reservadas
             CLASS, PUBLIC, STATIC, VOID, MAIN, STRING,
             EXTENDS, RETURN, INT, BOOLEAN, IF, ELSE,
-            WHILE, PRINT, LENGTH, TRUE, FALSE, THIS, NEW,
+            WHILE, LENGTH, TRUE, FALSE, THIS, NEW,
+            PRINTLN, SYSTEM, OUT, 
 
             //Identificadores e literais
-            ID, INTEGER_LITERAL,
+            IDENTIFIER, INTEGER_LITERAL,
 
             //Operadores
             AND, LESS_THAN, PLUS, MINUS, TIMES,
             NOT, EQUALS, DOT,
-
             //Delimitadores
-            LPAREN, RPAREN, LBRACE, RBRACE,
             LBRACKET, RBRACKET, SEMICOLON, COMMA,
+            RKEY, LKEY, RPARENTHESE, LPARENTHESE,
 
             //Especiais
-            EOF, ERROR
+            EOF, ERROR, 
         }
     }
 }

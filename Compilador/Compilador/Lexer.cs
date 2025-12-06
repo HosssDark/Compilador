@@ -155,7 +155,7 @@ namespace Compilador
                 return new Token(palavrasReservadas[texto], texto, linhaInicio, colunaInicio);
 
             // Se não for palavra reservada, é um identificador
-            return new Token(EnumToken.TipoToken.ID, texto, linhaInicio, colunaInicio);
+            return new Token(EnumToken.TipoToken.IDENTIFIER, texto, linhaInicio, colunaInicio);
         }
 
         /// <summary>
@@ -199,19 +199,19 @@ namespace Compilador
                 {
                     case '(':
                         Avancar();
-                        return new Token(EnumToken.TipoToken.LPAREN, "(", linhaInicio, colunaInicio);
+                        return new Token(EnumToken.TipoToken.LPARENTHESE, "(", linhaInicio, colunaInicio);
 
                     case ')':
                         Avancar();
-                        return new Token(EnumToken.TipoToken.RPAREN, ")", linhaInicio, colunaInicio);
+                        return new Token(EnumToken.TipoToken.RPARENTHESE, ")", linhaInicio, colunaInicio);
 
                     case '{':
                         Avancar();
-                        return new Token(EnumToken.TipoToken.LBRACE, "{", linhaInicio, colunaInicio);
+                        return new Token(EnumToken.TipoToken.LKEY, "{", linhaInicio, colunaInicio);
 
                     case '}':
                         Avancar();
-                        return new Token(EnumToken.TipoToken.RBRACE, "}", linhaInicio, colunaInicio);
+                        return new Token(EnumToken.TipoToken.RKEY, "}", linhaInicio, colunaInicio);
 
                     case '[':
                         Avancar();
@@ -319,7 +319,9 @@ namespace Compilador
             { "if", EnumToken.TipoToken.IF },                 
             { "else", EnumToken.TipoToken.ELSE },             
             { "while", EnumToken.TipoToken.WHILE },           
-            { "System.out.println", EnumToken.TipoToken.PRINT }, 
+            { "System", EnumToken.TipoToken.SYSTEM },
+            { "out", EnumToken.TipoToken.OUT },
+            { "println", EnumToken.TipoToken.PRINTLN },
             { "length", EnumToken.TipoToken.LENGTH },         
             { "true", EnumToken.TipoToken.TRUE },             
             { "false", EnumToken.TipoToken.FALSE },           
